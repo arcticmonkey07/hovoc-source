@@ -1,0 +1,54 @@
+main
+	.search
+		h2.search__header Купить квартиру в новостройке
+		.search__container
+			span.search__price-text Стоимость, млн руб.
+			form
+				.search__range-container
+					.search__range-filter
+						.search__range-fill-line
+						.search__range-button.search__range-button--left от 1
+						.search__range-button.search__range-button--right(style="left: 765px;") до 69
+					.search__checkbox-container
+						input.search__checkbox(type='checkbox' id='moscow' name='moscow' checked)
+						span.search__checkbox-indicator
+						label.search__label(for='moscow') Москва и Новая Москва
+						input.search__checkbox(type='checkbox' id='moscow-region' name='moscow-region')
+						span.search__checkbox-indicator
+						label.search__label(for='moscow-region') Московская область
+				.search__selects-wrapper
+					.search__select-container.search__select-metro-container
+						select.search__select.search__select-metro
+							option Станция метро
+							option Нагорная
+							option Профсоюзная
+							option Марьино
+					.search__select-container
+						select.search__select
+							option Тип жилья
+							option Тип жилья
+							option Тип жилья
+							option Тип жилья
+					.search__select-container
+						select.search__select
+							option Площадь
+							option Площадь
+							option Площадь
+							option Площадь
+					.search__select-container
+						select.search__select
+							option Тип отделки
+							option Тип отделки
+							option Тип отделки
+							option Тип отделки
+					.search__select-container
+						select.search__select
+							option Срок сдачи
+							option Срок сдачи
+							option Срок сдачи
+							option Срок сдачи
+					button.search__button-select(type='submit') Найти
+		a.search__call(href='#')
+			span.search__call-text Обратный звонок
+		a.search__sign-up(href='#')
+			span.search__sign-up-text Записаться на показ
