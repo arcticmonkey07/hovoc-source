@@ -1,0 +1,123 @@
+.modal-map
+  position: absolute
+  top: 82px
+  left: 169px
+  display: flex
+  width: 498px
+  height: 373px
+  background: #ffffff
+  box-shadow: 0 11px 49px 35px rgba(0,0,0,0,24)
+  box-sizing: border-box
+
+.modal-map__container
+  position: relative
+  padding: 22px
+
+.modal-map__close
+  cursor: pointer
+  &:before
+    content: ''
+    position: absolute
+    top: 11px
+    right: 18px
+    width: 1.5px
+    height: 18px
+    background-color: #979797
+    transform: rotate(-45deg)
+  &:after
+    content: ''
+    position: absolute
+    top: 11px
+    right: 18px
+    width: 1.5px
+    height: 18px
+    background-color: #979797
+    transform: rotate(45deg)
+
+.modal-map__header
+  margin: 0
+  margin-bottom: 8px
+  font-size: 14px
+  font-weight: 400
+  line-height: 19px
+
+.modal-map__metro
+  position: relative
+  padding-left: 23px
+  font-size: 13px
+  font-weight: 400
+  line-height: 17px
+  &:before
+    content: ''
+    position: absolute
+    top: -12px
+    left: -1px
+    width: 24px
+    height: 24px
+    background-image: url('/assets/img/green-metro.svg')
+
+.modal-map__time
+  margin-left: 10px
+  font-size: 13px
+  font-weight: 300
+  line-height: 17px
+  opacity: .6
+
+.modal-map__address
+  margin-top: 5px
+  margin-bottom: 10px
+  font-size: 13px
+  font-weight: 400
+  line-height: 17px
+  color: #404853
+
+.table-meters td
+  border-collapse: collapse
+  border-bottom: 1px solid #e7e7e7
+
+.table-meters__headers
+  padding: 7px 0 8px 0
+  font-size: 13px
+  font-weight: 300
+  line-height: 17px
+  opacity: .6
+
+.table-meters__text
+  padding: 7px 0 8px 13px
+  font-size: 13px
+  font-weight: 400
+  line-height: 17px
+  color: #404853
+
+.table-info
+  margin-bottom: 8px
+
+.table-info__headers
+  padding: 0 0 4px
+  font-size: 13px
+  font-weight: 300
+  line-height: 17px
+  opacity: .6
+
+.table-info__text
+  padding: 0 0 4px 34px
+  font-size: 13px
+  font-weight: 400
+  line-height: 17px
+  color: #404853
+
+.modal-map__button
+  width: 256px
+  height: 36px
+  font-size: 14px
+  font-weight: 400
+  line-height: 19px
+  text-align: center
+  background-color: $blue-color
+  border: none
+  border-radius: 4px
+  color: #fff
+  box-shadow: 0 4px 10px rgba(116,207,183,0,45)
+  cursor: pointer
+  &:hover
+    background-color: $green-color

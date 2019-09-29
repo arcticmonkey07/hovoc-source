@@ -1,5 +1,5 @@
 main
-	.search
+	section.search
 		h2.search__header Купить квартиру в новостройке
 		.search__container
 			span.search__price-text Стоимость, млн руб.
@@ -9,12 +9,12 @@ main
 						.search__range-fill-line
 						.search__range-button.search__range-button--left от 1
 						.search__range-button.search__range-button--right(style="left: 765px;") до 69
-					.search__checkbox-container
-						input.search__checkbox(type='checkbox' id='moscow' name='moscow' checked)
-						span.search__checkbox-indicator
+					.search__radio-container
+						input.search__radio(type='radio' id='moscow' name='moscow' checked)
+						span.search__radio-indicator
 						label.search__label(for='moscow') Москва и Новая Москва
-						input.search__checkbox(type='checkbox' id='moscow-region' name='moscow-region')
-						span.search__checkbox-indicator
+						input.search__radio(type='radio' id='moscow-region' name='moscow')
+						span.search__radio-indicator
 						label.search__label(for='moscow-region') Московская область
 				.search__selects-wrapper
 					.search__select-container.search__select-metro-container
@@ -52,3 +52,171 @@ main
 			span.search__call-text Обратный звонок
 		a.search__sign-up(href='#')
 			span.search__sign-up-text Записаться на показ
+	section.map
+		<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A1f7c68960723d32c9a5483a55d0c5047e6f946cea6cf93294c1628e03b1e3388&amp;source=constructor" width="100%" height="495" frameborder="0"></iframe>
+		.map__modal.modal-map
+			img.modal-map__img(src='/assets/img/modal-map-img.png')
+			.modal-map__container
+				span.modal-map__close
+				h3.modal-map__header ЖК Премиум-квартал JAZZ
+				span.modal-map__metro Марьина роща
+				span.modal-map__time 2 минуты пешком
+				p.modal-map__address Марьина роща, ул. Сущевский вал, 49
+				table.modal-map__table-meters.table-meters
+					tr
+						td.table-meters__headers 1-комнатные от 30 м²
+						td.table-meters__text 6 900 000 р.
+					tr
+						td.table-meters__headers 2-комнатные от 75 м²
+						td.table-meters__text от 22 900 000 р.
+					tr
+						td.table-meters__headers 3-комнатные от 74 м²
+						td.table-meters__text от 17 400 000 р.
+					tr
+						td.table-meters__headers 4-комнатные от 177 м²
+						td.table-meters__text от 63 200 000 р.
+				table.modal-map__table-info.table-info
+					tr
+						td.table-info__headers Стадия готовности:
+						td.table-info__text На заселении
+					tr
+						td.table-info__headers Ипотека
+						td.table-info__text Есть
+					tr
+						td.table-info__headers Отделка
+						td.table-info__text Возможна
+				button.modal-map__button Заказать просмотр
+	section.offers
+		.container
+			.offers__item.offer-item
+				.offer-item__info-container
+					h2.offer-item__header Микрорайон Некрасовка
+					span.offer-item__metro Марьина роща
+					span.offer-item__time 2 минуты пешком
+					p.offer-item__address Москва, ЮВАО, район Некрасовка, Люберецкие поля аэрации
+					table.offer-item__table.offer-table
+						tr
+							td.offer-table__headers 1-комнатные от 30 м²
+							td.offer-table__text 6 900 000 р.
+						tr
+							td.offer-table__headers 2-комнатные от 75 м²
+							td.offer-table__text от 22 900 000 р.
+						tr
+							td.offer-table__headers 3-комнатные от 74 м²
+							td.offer-table__text от 17 400 000 р.
+						tr
+							td.offer-table__headers 4-комнатные от 177 м²
+							td.offer-table__text от 63 200 000 р.
+						tr
+							td.offer-table__headers Стадия готовности:
+							td.offer-table__text Монтаж завершен. Ввод дома в эксплуатацию в 4 квартале
+						tr
+							td.offer-table__headers Ипотека
+							td.offer-table__text Есть
+						tr
+							td.offer-table__headers Отделка
+							td.offer-table__text Возможна
+					ul.offer-item__buttons-list
+						li
+							button.offer-item__button.offer-item__button--house Ипотека
+						li
+							button.offer-item__button.offer-item__button--calendar Рассрочка
+						li
+							button.offer-item__button.offer-item__button--percentage Скидки
+						li
+							button.offer-item__button.offer-item__button--ruble Субсидии
+				.offer-item__photo-container.photo-container
+					.photo-container__top-block
+						span.photo-container__text.photo-container__text--certificate Подарочные сертификаты
+						span.photo-container__text.photo-container__text--sale Акция
+					button.photo-container__button Подробнее
+			.offers__item.offer-item
+				.offer-item__info-container
+					h2.offer-item__header ДОМ «Флагман»
+					span.offer-item__metro.offer-item__metro--gray Выхино
+					span.offer-item__time 10 минут на транспорте
+					p.offer-item__address Москвская область, г. Долгопрудный, ул. Набережная
+					table.offer-item__table.offer-table.offer-table--margin
+						tr
+							td.offer-table__headers 1-комнатные от 30 м²
+							td.offer-table__text от 3 239 397 р.
+						tr
+							td.offer-table__headers 2-комнатные от 75 м²
+							td.offer-table__text от 4 734 000 р.
+						tr
+							td.offer-table__headers 3-комнатные от 74 м²
+							td.offer-table__text от 6 512 440 р.
+						tr
+							td.offer-table__headers Стадия готовности:
+							td.offer-table__text Введен в эксплуатацию / На
+						tr
+							td.offer-table__headers Ипотека
+							td.offer-table__text Есть
+						tr
+							td.offer-table__headers Отделка
+							td.offer-table__text Возможна
+					ul.offer-item__buttons-list
+						li
+							button.offer-item__button.offer-item__button--house Ипотека
+						li
+							button.offer-item__button.offer-item__button--calendar Рассрочка
+						li
+							button.offer-item__button.offer-item__button--percentage Скидки
+						li
+							button.offer-item__button.offer-item__button--ruble Субсидии
+				.offer-item__photo-container.photo-container--flagman
+					button.photo-container__button Подробнее
+			.offers__item.offer-item
+				.offer-item__info-container
+					h2.offer-item__header ЖК «Лайково»
+					span.offer-item__metro.offer-item__metro--blue Ховрино
+					span.offer-item__time 15 минут на транспорте
+					p.offer-item__address Москвская область, г. Долгопрудный, ул. Дирижабельная
+					table.offer-item__table.offer-table
+						tr
+							td.offer-table__headers 1-комнатные от 30 м²
+							td.offer-table__text 6 900 000 р.
+						tr
+							td.offer-table__headers 2-комнатные от 75 м²
+							td.offer-table__text от 22 900 000 р.
+						tr
+							td.offer-table__headers 3-комнатные от 74 м²
+							td.offer-table__text от 17 400 000 р.
+						tr
+							td.offer-table__headers 4-комнатные от 177 м²
+							td.offer-table__text от 63 200 000 р.
+						tr
+							td.offer-table__headers Стадия готовности:
+							td.offer-table__text Монтаж завершен. Ввод дома в эксплуатацию в 4 квартале
+						tr
+							td.offer-table__headers Ипотека
+							td.offer-table__text Есть
+						tr
+							td.offer-table__headers Отделка
+							td.offer-table__text Возможна
+					ul.offer-item__buttons-list
+						li
+							button.offer-item__button.offer-item__button--house Ипотека
+						li
+							button.offer-item__button.offer-item__button--calendar Рассрочка
+						li
+							button.offer-item__button.offer-item__button--percentage Скидки
+						li
+							button.offer-item__button.offer-item__button--ruble Субсидии
+				.offer-item__photo-container.photo-container--laikovo
+					.photo-container__top-block.photo-container__top-block--padding
+						span.photo-container__text.photo-container__text--certificate Подарочные сертификаты
+					button.photo-container__button Подробнее
+			button.offers__all-button Все предложения
+	.container
+		section.office
+			h3.office__header Офис Миэль «В Беляево»
+			p.office__text — это команда профессиональных экспертов и агентов по недвижимости с большим багажом риелторской и юридической практики. Основные направления Миэль «В Беляево» - это продажа элитной недвижимости и квартир в новостройках.
+			h3.office__header  Наши специалисты выполняют широкий спектр операций, связанных с недвижимостью:
+			ul.office__list
+				li.office__item.office__item-one Подбор квартир
+				li.office__item.office__item-two Проверка застройщика и/или собственника
+				li.office__item.office__item-three Проверка и оформление документов
+				li.office__item.office__item-four Юридическая
+				li.office__item.office__item-five Сопровождение сделки
+			p.office__text Если вы хотите купить квартиру в элитном жилом комплексе, то мы поможем вам это сделать не только максимально комфортно и безопасно, но и выгодно - мы всегда сообщаем о самых интересных акциях и выбираем действительно горячие предложения. Кроме того, мы готовы помочь оформить выгодную ипотеку. Каждый клиент становится для нас партнером, которого мы готовы защитить от всевозможных рисков и поддержать на всех этапах проведения сделки.

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="46">
+	<defs>
+		<image id="img_0" width="38" height="46" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACYAAAAuCAYAAABEbmvDAAAABHNCSVQICAgIfAhkiAAABTZJREFUWIW92GmoVVUUB/DffZpZDkUGTZo2mKkohJXZPFiEz2gQy8igojlooiIiKooGrCCKyObhg1FYZvVCM80smufZIYuyQW1WK3va7cPap3ve9d533/Pe1x8Oez7nf/Zaew27UHxWR7AXjsIEbIcCVmImnsGCDr2lEpqLFbsLNYj1xK04t8brn0hzVjSKWFM7S3pjdo7UyzgfB+KL1LcYf4idnIdBnSZWBe0Rm5JIrMeZqX6H2JUdUcTROBTLMRx3CjF3GbFDcE6qn4V7c2MXYRN8iM/xBo7BGozDpK4kdmwq5+P+XP+Jieg6XC52DV7HY6k+viuJDUvl07m+0/BIrj0CPXLtaakchT71Euteoa+30CEYiWtwGPZPfWuxqdDByXgRf2LnND4IW2NVo4kVhMLDKWVjtwuRnYIzEvGRZXN+Q2s9pKoRW4UfU/0zYTy/xPN4L/W/iocwFnsLkfbFaKwWJqThxOD7VL6Js6vMeTU9GaYkYl+rU4xUV/7sg+OxZQffNS6VczVAlNWITRMK3U8Y11qYLAws4S3qRjViK4QVhxtwcjvvGJub+xje6kpicKXQsW7Cfl2urVg3xXnC1vXFN8KXNgS1oott8TgOSO3vsUhY/l2UnPZCnIAPOs2gSnRR7VRm+AFH4gqha9ulJ8MasZvXprkNQ60dy6O/UPCdhAp8JZz40roYbOSO5bEsPf8LOkOM0KmBwrr/IuKwNY0mRceIjcWpImroj16pfw1+xmt4UES4DSPZHrERuFqEzXn8jM0TwV4YgOPxDk7H+40gVs2OjRE7UE5qQiI8TJzWvE8chVd0YQQ7BNOxhTh5E5V85874TkQb3cSOLcER4kd64VGRBzSc2G3YXohk/0Qyi04vECkdIeYmzMIcHI4X0tiNjSY2RIiIUPhvU32mEFt/sRvbijiMUqKyVskl7S1C8YYRy5z1LG2VeJlS/H8Srkr1eSJbyvAZpqb6XvUQKz+VmW7MqjD3vkRqokjfaJtBZbhUxGSvlfX3EcnzXLzdZqSlsBk211z8KetqKls4MNUXVvjgfLybI/U1nqswb7XQy2/L+o/CTbgktbfEwVoK1+NTLNZSyNSozY4NFQ56ffpoJUzFPak+A79WmVcJfVM5Jr3nUAwum7OfJK38jg0VGdJSYSYq4SnhhlpxdwfINAk3dnp6iNTwrERqJZ4UwQD8lS3M79iQVH6uepazUsT2fYSiV8MY7CnEd3jZ2CphVmZjhubiCi2FGdg9PylPLBtY1M4HCT2rhi1wl7hKyONj/I590/rjysYzHuuyjkyUvYWrgU9qEGsPO+VIfYxbxO6NxsOpf32FdRn+KWe6g3A3xTqJZT/aimZtD1E21i096zFYS+FsIXaYrKXwDx7NiA1IC1fUSSz741aRrORRKZKZgItz7ZFil5dnf5Hd7ixWX0yVxckFHbvAm25DmzkNc5qEwcwuRjqf5bTF6ly9I9cES4TpeCvVZ+FCzcXlTdgqR6zcjXQGw5WceE9x87hrzVXNxZdwkPCt4zQXVxJyH6Bkgf8W1r9npXckZGJaqiQ6aFFyaQXhM/dLTy1yf4orif/QXUSeWYb9QCK3ierIdOd9cfJ+S+07xY1PHvfVJFUF3YUFXyK2PYvjO4KttD1pN4ufHC1MwRyRpGw0sQXiCmA3EezVQlNa94lITPKYhG0SsR/LxrKD0ap9I/sfMSK9b1SKv7ys3UP44cyz9MM+wvWV/9gGxLoS1+GyXHsPcfo/EjnF75UW/R/Elgmblj/BBWFYq4r0X8VrLaChLAoZAAAAAElFTkSuQmCC"/>
+	</defs>
+	<defs>
+		<clipPath id="clip_0">
+			<rect x="-841" y="-3354" width="1440" height="3779" clip-rule="evenodd"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#clip_0)">
+		<use fill="rgb(255,255,255)" stroke="none" xlink:href="#img_0"/>
+	</g>
+
+</svg>
